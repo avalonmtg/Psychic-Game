@@ -1,0 +1,62 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  body {
+      background-image: url("../../assets/images/morocco/morocco.png");
+      font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+      font-size: 16px;
+  }
+  
+  h1, h2 {
+      text-align: center;
+  }
+  
+  .containter {
+      width: 100%;
+      max-width: 950px;
+      margin: 0 auto;
+  }
+  
+  #space {
+      margin-top: 15px;
+  }
+  
+  .footer {
+      right: 0;
+      left: 0;
+      bottom: 0;
+        position: absolute;
+      background: rgb(73, 38, 80);
+      text-align: center;
+      font-size: 30px;
+      color: #4A5BD2;
+        padding: 1rem;
+  }
+  
+  /*MEDIA QUERIES*/
+  
+    @media screen and (max-width: 980px){
+        #lotus {
+            margin-left: 175px;
+        }
+        
+    @media only screen and (max-width: 768px){
+    
+        #lotus {
+            margin-left: 170px;
+        }  
+    
+    @media only screen and (max-width: 640px){
+    
+        h2 {
+            margin-left: 70px;
+        }
+    
+        #lotus {
+            margin-left: 145px;
+        }
+    }
+}
+    }

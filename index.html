@@ -1,21 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>The Psychic Game</title>
+	<meta charset="utf-8">
+	<title>Psychic Game(Basic)</title>
+	
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    	
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
-
 <body>
- <script type = "text/javascript" src = "assets/javascript/game.js"></script>   
-<h1>Psychic Game</h1>
+<header>
+	<div class="page-header">
+	  <h1>The Psychic Game </h1>
+	</div>
+</header>
+<div class="container">
+	<h2>Guess what letter I'm thinking of</h2>
+	<div class="row">
+		<div class="col-md-4">
+			<img src="assets/images/Lotus.jfif" class="thumbnail" alt="...">
+		</div>
+		<div class="col-md-4">
+			<ul id="space" class="list-group">
+				<li class="list-group-item" id="wins">Wins:</li>
+				<li class="list-group-item" id="losses">Losses:</li>
+				<li class="list-group-item" id="guesses-left">Guesses Left:</li>
+				<li class="list-group-item" id="guesses-so-far">Your Guesses so far:</li>
+			</ul>
+		</div>
+        
+	</div>
+</div>
+<div class="footer">
+	&copy;Copyright
+</div>
 
-<p>Guess What Letter I'm Thinking Of</p>
-<p>Wins: <span id = "wins"> 0 </span></p>
-<p>Losses: <span id = "losses"> 0 </span></p>
-<p>Guesses Left: <span id="guesses-left"></span></p>
-<p>Your guesses so far: <span id = "guesses-so-far"> 0 </span></p>
-
+<script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
-</html>
